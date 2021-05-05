@@ -1,0 +1,80 @@
+body {
+  background-color: #fff5e2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #fdbb40;
+  position: relative;
+  height: 130px;
+}
+main {
+  background-color: white;
+  height: calc(100vh - 80px - 130px);
+  overflow: auto;
+}
+footer {
+  background-color: #d33359;
+  height: 80px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.form-control-lg {
+  font-size: 2rem;
+}
+
+.img_burger {
+  position: absolute;
+  right: -80px;
+  top: -30px;
+}
+
+.input_coupon {
+  background-color: #fff5e2;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #fdbb40;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 25px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: #d33359;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+input[type="checkbox"]::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: none;
+}
+
+input[type="checkbox"]:checked::after {
+  display: block;
+}
