@@ -75,7 +75,7 @@ document.querySelector('button').addEventListener('click', function () {
     var totalPriceEl = document.querySelector('.price');
     //console.log(totalPriceEl);
     
-    totalPriceEl.innerHTML = totalPrice.toFixed(2);
+    totalPriceEl.innerHTML = '€ ' + totalPrice.toFixed(2);
 
 })
 
